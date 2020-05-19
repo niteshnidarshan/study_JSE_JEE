@@ -1,0 +1,123 @@
+package core.basic;
+
+public class DecimalToRoman {
+/**
+ * This program converts Decimal number to Roman
+ * 
+ * 50 = L
+ * 100 = C
+ * 500 = D
+ * 1000 = M
+ * 
+ * 40 = XL
+ * 90 = XC
+ * 
+ * 400 = CD
+ * 900 = CM
+ * 
+ * 1 = I [w]
+ * 4 = IV [if]
+ * 5 = V [if]
+ * 9 = IX [if]
+ * 10 = X [w]
+ * 
+ * 40 = XL [if]
+ * 50 = L [if]
+ * 90 = XC [if]
+ * 100 = C [w]
+ * 
+ * 400 = CD [if]
+ * 500 = D [if]
+ * 900 = CM [if]
+ * 1000 = M [w]
+ * 
+ */
+	
+	int n;
+	public void set(int n)
+	{
+		this.n = n;
+	}
+	public void convert()
+	{
+		if(n<=0)
+			System.out.println("No Roman Equivalent");
+		else
+		{
+			while(n >= 1000)
+			{
+				System.out.println("M");
+				n = n-1000;
+			}
+			if(n >= 900)
+			{
+				System.out.println("CM");
+				n = n-900;
+			}
+			if(n >= 500)
+			{
+				System.out.println("D");
+				n = n-500;
+			}
+			if(n >= 400)
+			{
+				System.out.println("CD");
+				n = n-400;
+			}
+			while(n >= 100)
+			{
+				System.out.println("C");
+				n = n-100;
+			}
+			if(n >= 90)
+			{
+				System.out.println("XC");
+				n = n-90;
+			}
+			if(n >= 50)
+			{
+				System.out.println("L");
+				n = n-50;
+			}
+			if(n >= 40)
+			{
+				System.out.println("XL");
+				n = n-40;
+			}
+			while(n >= 10)
+			{
+				System.out.println("X");
+				n = n-10;
+			}
+			if(n >= 9)
+			{
+				System.out.println("IX");
+				n = n-9;
+			}
+			if(n >= 5)
+			{
+				System.out.println("V");
+				n = n-5;
+			}
+			if(n >= 4)
+			{
+				System.out.println("IV");
+				n = n-4;
+			}
+			while(n >= 1)
+			{
+				System.out.println("I");
+				n = n-1;
+			}
+			
+		}
+		
+		public static void main(String x[])
+		{
+			
+		}
+	}
+	
+	
+
+}
