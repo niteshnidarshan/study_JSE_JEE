@@ -1,0 +1,27 @@
+package core.basic;
+
+/**
+ * LCM(Lowest Common Factor) 
+ * 
+ * HCF(Highest Common Factor) / GCD(Greatest Common Divisor)
+ * 
+ * HCF with Recursive
+ * 
+ * @author niteshnidarshan
+ *
+ */
+public class LCM_HCF_GCD {
+
+	public static int getHCF(int p, int q)
+	{
+		if(q==0) return p;
+		
+		int reminder = p%q;
+		
+		return getHCF(q, reminder);
+	}
+	
+	public static void main(String[] args) {
+	}
+
+}

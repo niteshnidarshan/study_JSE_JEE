@@ -1,0 +1,21 @@
+package core.basic;
+
+/**
+ * Recursive Sum of two digit
+ * @author niteshnidarshan
+ *
+ */
+public class RecursiveSum {
+
+	public static int sum(int a, int b, int d)
+	{
+		if(a==0)
+			return b;
+		else 
+			return sum(--a, ++b, ++d);
+	}
+	public static void main(String[] args) {
+		System.out.println(sum(1,10));
+	}
+
+}

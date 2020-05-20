@@ -1,0 +1,43 @@
+package core.basic;
+/**
+ * 
+ * A program for factorial number with for loop
+ * 
+ * @author niteshnidarshan
+ *
+ */
+public class Factorial {
+	
+	public static void getFactorial(int number)
+	{
+		int fact = 1;
+		
+		if(number == 0)
+			System.out.println("1");
+		if(number < 0)
+			System.out.println("Only postive value requires.");
+		if(number > 0)
+		{
+			for(int i = 1; i<=number; i++)
+			{
+				fact = fact * i; 
+			}
+			System.out.println(fact);
+		}
+	}
+
+	public static int getFactorialRecurssive(int number)
+	{
+		if(number == 0)
+			return 1;
+		else 
+		{
+			return number*getFactorialRecurssive(number-1);
+		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(getFactorialRecurssive(5));
+	}
+
+}

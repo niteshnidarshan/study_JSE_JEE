@@ -1,0 +1,16 @@
+package core.basic;
+
+public class Factorial {
+	
+	public static void getFactorial(int number)
+	{
+		int fact;
+		
+		return fact;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

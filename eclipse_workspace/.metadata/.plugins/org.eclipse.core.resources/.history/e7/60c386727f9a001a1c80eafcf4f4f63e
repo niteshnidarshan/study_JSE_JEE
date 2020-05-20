@@ -1,0 +1,17 @@
+package core.basic;
+
+/**
+ * LCM(Lowest Common Factor) 
+ * 
+ * HCF(Highest Common Factor) / GCD(Greatest Common Divisor)
+ * 
+ * 
+ * @author niteshnidarshan
+ *
+ */
+public class LCM_HCF_GCD {
+
+	public static void main(String[] args) {
+	}
+
+}
