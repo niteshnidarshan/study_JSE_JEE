@@ -1,0 +1,10 @@
+package core.inheritance.super_relation;
+
+public class ExecuteB_I_D {
+
+	public static void main(String[] args) { 
+		Derived d = new Derived();
+		d.op(10, 20);
+	}
+
+}

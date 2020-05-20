@@ -1,0 +1,5 @@
+package core.inheritance.this_super;
+
+public class Derived {
+
+}

@@ -1,0 +1,16 @@
+package core.polymorphism.abstract_class;
+
+public class Circle extends Mshap{
+
+	int r;
+	Circle(int r)
+	{
+		this.r = r;
+	}
+	
+	@Override
+	void area() {
+		float area = (3.1417f*r*r);
+		System.out.println("Area of circle = "+area);
+	}
+}

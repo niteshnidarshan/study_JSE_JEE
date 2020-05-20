@@ -23,3 +23,14 @@ public class ExecuteBaseDerived {
 	}
 
 }
+
+/*****Console result *****
+ ----With respect to Derived Class--------
+show() -- defined -- Base class
+disp() -- defined -- Derived class
+value of a from Base class = 10
+value of b from Derived class = 20
+----With respect to Base Class--------
+show() -- defined -- Base class
+*/
+

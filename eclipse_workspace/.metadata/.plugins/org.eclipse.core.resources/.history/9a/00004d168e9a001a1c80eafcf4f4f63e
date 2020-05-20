@@ -1,0 +1,24 @@
+package core.basic;
+
+/**
+ * Variable Argument
+ * 
+ * argument of method as (dtat_type...variable_name) - represents n number of arguments in a method
+ * @author niteshnidarshan
+ *
+ */
+public class VariableArgument {
+	
+	void disp(int ... x)
+	{
+		for(int i = 0; i < x.length; i++)
+		{
+			System.out.print(x[i]+"  ");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

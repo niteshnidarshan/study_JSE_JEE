@@ -1,0 +1,10 @@
+package core.inheritance.super_relation;
+
+public class Base {
+
+	void op(int x, int y)
+	{
+		System.out.println("Base class op() ");
+		System.out.println("Base sum = "+(x+y));
+	}
+}

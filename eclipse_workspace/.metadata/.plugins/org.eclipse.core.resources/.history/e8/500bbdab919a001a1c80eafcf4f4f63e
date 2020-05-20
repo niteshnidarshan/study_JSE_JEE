@@ -1,0 +1,17 @@
+package core.polymorphism.abstract_class;
+
+public class Rect extends Mshap{
+
+	Rect(int l, int b)
+	{
+		this.l = l;
+		this.b = b;
+	}
+	
+	@Override
+	void area() {
+		int l,b;
+	}
+	
+
+}

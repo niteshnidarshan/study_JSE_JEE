@@ -1,0 +1,13 @@
+package core.inheritance.this_super;
+
+/**
+ * this - current class implicit object to access current class property
+ * super - extended class implicit object in derived class to access immediate extended class property
+ * this() - represents current class constructor
+ * super() - represents extended class constructor
+ * @author niteshnidarshan
+ *
+ */
+public class Base {
+
+}

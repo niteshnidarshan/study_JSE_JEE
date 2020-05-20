@@ -17,3 +17,10 @@ public class ExecuteBaseDerived {
 	}
 
 }
+
+/*****Console result *****
+a from Base class = 10
+a from Derived class = 20
+Sum = 30
+I am from Base disp().
+*/

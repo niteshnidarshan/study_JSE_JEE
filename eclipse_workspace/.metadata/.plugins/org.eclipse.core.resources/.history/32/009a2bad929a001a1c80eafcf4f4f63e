@@ -1,0 +1,10 @@
+package core.polymorphism.abstract_class;
+
+public class ExecuteMShap {
+
+	public static void main(String[] args) {
+		
+		Mshap ms = new Rect(5, 2);
+	}
+
+}

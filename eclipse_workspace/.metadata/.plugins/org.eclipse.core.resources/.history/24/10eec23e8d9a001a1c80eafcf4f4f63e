@@ -1,0 +1,15 @@
+package core.inheritance.this_super;
+
+public class Intermediate extends Base{
+
+	Intermediate()// ------------4
+	{
+		super(); //Control goes to 5
+		System.out.print(" P ");
+	}
+	Intermediate(int a)// ------------3
+	{
+		this(); //Control goes to 4
+		System.out.print(" Q ");
+	}
+}
