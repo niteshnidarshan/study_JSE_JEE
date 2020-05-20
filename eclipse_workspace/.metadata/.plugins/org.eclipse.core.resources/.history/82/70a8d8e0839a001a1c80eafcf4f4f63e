@@ -1,0 +1,16 @@
+package core.inheritance.method_access;
+
+public class ExecuteBaseDerived {
+
+	public static void main(String[] args) {
+		System.out.println("----With respect to Derived Class--------");
+		Derived d = new Derived();
+		d.show();
+		d.disp();
+		System.out.println("----With respect to Base Class--------");
+		Base b = new Base();
+		b.show();
+		//b.disp(); // Through Base class reference we can not call disp() because disp() is not available in Base class 		
+	}
+
+}

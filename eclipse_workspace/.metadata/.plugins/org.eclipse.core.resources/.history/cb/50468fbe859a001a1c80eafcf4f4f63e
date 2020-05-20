@@ -1,0 +1,14 @@
+package core.inheritance.method_access;
+
+public class Derived extends Base {
+
+	int b;
+	void disp()
+	{
+		System.out.println("disp() -- defined -- Derived class");
+		a = 10;
+		b = 20;
+		System.out.println("value of a from Base class = "+a);
+		System.out.println("value of b from Derived class = "+b);
+	}
+}

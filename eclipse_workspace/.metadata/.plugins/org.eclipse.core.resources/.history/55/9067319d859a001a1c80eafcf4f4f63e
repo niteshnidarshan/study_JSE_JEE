@@ -1,0 +1,12 @@
+package core.inheritance.super_keyword;
+
+public class ExecuteBaseDerived {
+
+	public static void main(String[] args) {
+		Derived d = new Derived();
+		d.set(10, 20);
+		d.sum();
+		d.disp();
+	}
+
+}

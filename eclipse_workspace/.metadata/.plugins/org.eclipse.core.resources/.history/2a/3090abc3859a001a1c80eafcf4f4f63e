@@ -1,0 +1,11 @@
+package core.inheritance.method_access;
+
+public class Base {
+
+	int a;
+	void show()
+	{
+		System.out.println("show() -- defined -- Base class");
+	}
+
+}

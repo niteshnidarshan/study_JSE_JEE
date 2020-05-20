@@ -1,0 +1,10 @@
+package core.inheritance.super_keyword;
+
+public class ExecuteBaseDerived {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
