@@ -2,6 +2,16 @@ package core.basic;
 
 /**
  * Recursive Factorial
+ * 
+ * 
+ * nPr = factorial(n) / factorial(n-r)
+ * nCr = factorial(n)/(factorial(n-r) * factorial(r))
+ * 
+ * int npr = (factorial(n) / (factorial(n - r)));
+ * int ncr = (factorial(n) / (factorial(n - r) * factorial(r)));
+ * 
+ * 
+ * 
  * @author niteshnidarshan
  *
  */

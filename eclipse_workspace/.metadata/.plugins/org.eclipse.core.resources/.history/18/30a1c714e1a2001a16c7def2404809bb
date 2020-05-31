@@ -1,0 +1,24 @@
+package core.basic.permutation_combination;
+
+public class StringPermutaionRecurrsive {
+	
+	public static String swapCharacters(String input, int i, int j)
+	{
+		char tempCharacter;
+		char[] charArray = input.toCharArray();
+		tempCharacter 	= charArray[i];
+		charArray[i]	= charArray[j];
+		charArray[j]	= tempCharacter;
+		
+		return String.valueOf(charArray);
+	}
+	
+	public static void findPermutaion(String input, int leftIndex, int lengthOfString)
+	{
+		
+	}
+
+	public static void main(String[] args) {
+	}
+
+}

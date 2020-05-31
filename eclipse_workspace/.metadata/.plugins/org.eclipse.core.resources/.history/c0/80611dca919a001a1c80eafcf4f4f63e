@@ -1,5 +1,0 @@
-package core.polymorphism.abstract_class;
-
-public class Circle extends MShap{
-
-}

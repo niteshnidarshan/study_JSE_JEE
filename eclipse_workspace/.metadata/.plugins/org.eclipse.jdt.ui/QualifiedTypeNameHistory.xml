@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="core.basic.DecimalToRoman"/>
+<fullyQualifiedTypeName name="core.inheritance.method_access.Derived"/>
+<fullyQualifiedTypeName name="core.inheritance.super_keyword.Derived"/>
+<fullyQualifiedTypeName name="core.inheritance.super_relation.Intermediate"/>
+<fullyQualifiedTypeName name="javax.crypto.MacSpi"/>
+<fullyQualifiedTypeName name="core.polymorphism.abstract_class.Mshap"/>
+<fullyQualifiedTypeName name="javax.swing.SortingFocusTraversalPolicy"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

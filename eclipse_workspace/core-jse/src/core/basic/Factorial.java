@@ -2,6 +2,12 @@ package core.basic;
 /**
  * Recursive & without recursive program for factorial number with for loop
  * 
+ * nPr = factorial(n) / factorial(n-r)
+ * nCr = factorial(n)/(factorial(n-r) * factorial(r))
+ * 
+ * int npr = (factorial(n) / (factorial(n - r)));
+ * int ncr = (factorial(n) / (factorial(n - r) * factorial(r)));
+ * 
  * @author niteshnidarshan
  *
  */

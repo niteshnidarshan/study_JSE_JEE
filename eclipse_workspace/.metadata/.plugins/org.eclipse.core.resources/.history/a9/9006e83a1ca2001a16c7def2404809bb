@@ -1,0 +1,11 @@
+package core.thread;
+
+public class MyFirstThread {
+
+	public static void main(String[] args) {
+		Task task = new Task();
+		Thread thread = new Thread(task);//New state
+		thread.start();
+	}
+
+}

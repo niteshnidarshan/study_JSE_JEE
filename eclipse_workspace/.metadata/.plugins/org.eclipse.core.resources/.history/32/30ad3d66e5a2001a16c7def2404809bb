@@ -1,0 +1,25 @@
+package core.basic.permutation_combination;
+
+public class SubsetsOfSet {
+	
+	public static String[] getAllSubset(String elements[], int lengthOfList)
+	{
+		//List of length 1 are just the original elements
+		if(lengthOfList == 1)
+		{
+			return elements;
+		}
+		else
+		{
+			//initialize our returned list with the number of elements calculated above
+			String allLists[] = new String[(int)Math.pow(elements.length, lengthOfList)];
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

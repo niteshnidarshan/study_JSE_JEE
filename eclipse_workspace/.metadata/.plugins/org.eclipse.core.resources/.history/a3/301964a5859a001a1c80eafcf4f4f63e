@@ -1,7 +1,0 @@
-package core.inheritance.super_keyword;
-
-public class Base {
-
-	int a;
-	
-}
