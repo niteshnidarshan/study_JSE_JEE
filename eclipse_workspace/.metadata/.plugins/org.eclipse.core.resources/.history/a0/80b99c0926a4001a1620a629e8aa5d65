@@ -1,0 +1,5 @@
+package com.maven.boot.rest.controller;
+@RestController
+public class CustomerController {
+
+}

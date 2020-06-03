@@ -1,0 +1,40 @@
+package com.maven.boot.rest.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.maven.boot.rest.model.Customer;
+import com.maven.boot.rest.services.CustomerService;
+
+@RestController
+public class CustomerController {
+	
+	private final CustomerService customerService;
+	
+	@Autowired
+	public CustomerController(CustomerService customerService)
+	{
+		this.customerService = customerService;
+	}
+	
+	@PostMapping(value = "/customers")
+	public ResponseEntity<?> create(@RequestBody Customer customer){
+		customerService.create(customer);
+		return new ResponseEntity<>(HttpStatus.CREATED);
+	}
+	
+	@GetMapping(value = "/customers")
+	public ResponseEntity<List<Customer>> read(){
+		final List<Customer> customers = customerService.readAll();
+		
+		return customers != null && !customers.isEmpty() ? new ResponseEntity<>(customers, HttpStatus.OK): new ResponseEntity<>(HttpStatus.NOT_FOUND);
+	}
+
+}

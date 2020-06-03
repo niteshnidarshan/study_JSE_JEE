@@ -1,0 +1,19 @@
+package com.maven.boot.rest.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.maven.boot.rest.services.CustomerService;
+
+@RestController
+public class CustomerController {
+	
+	private final CustomerService customerService;
+	
+	@Autowired
+	public CustomerController(CustomerService customerService)
+	{
+		this.customerService = customerService;
+	}
+
+}

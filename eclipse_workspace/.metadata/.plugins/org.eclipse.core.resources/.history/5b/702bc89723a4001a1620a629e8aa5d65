@@ -1,0 +1,22 @@
+package com.maven.boot.rest.services;
+
+import java.util.List;
+
+import com.maven.boot.rest.model.Customer;
+
+public interface CustomerService {
+
+	/**
+	 * Create a new Customer
+	 * @param customer
+	 */
+	void create(Customer customer);
+	
+	/**
+	 * Rturns a list of all existing Customers
+	 * @return
+	 */
+	List<Customer> readAll();
+	
+	
+}
