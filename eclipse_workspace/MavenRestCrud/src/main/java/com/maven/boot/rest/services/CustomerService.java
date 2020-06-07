@@ -2,6 +2,8 @@ package com.maven.boot.rest.services;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.maven.boot.rest.model.Customer;
 
 public interface CustomerService {

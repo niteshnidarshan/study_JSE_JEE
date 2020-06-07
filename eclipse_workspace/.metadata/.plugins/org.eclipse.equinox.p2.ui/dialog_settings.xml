@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.SelectableIUsPage">
-		<item value="200" key="DetailsSashWeight"/>
-		<item value="360" key="NameColumnWidth"/>
-		<item value="120" key="VersionColumnWidth"/>
-		<item value="240" key="IDColumnWidth"/>
-		<item value="800" key="ListSashWeight"/>
+		<item key="DetailsSashWeight" value="200"/>
+		<item key="NameColumnWidth" value="360"/>
+		<item key="VersionColumnWidth" value="120"/>
+		<item key="IDColumnWidth" value="240"/>
+		<item key="ListSashWeight" value="800"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationWizard.ResolutionResultsPage">
-		<item value="200" key="DetailsSashWeight"/>
-		<item value="400" key="NameColumnWidth"/>
-		<item value="200" key="VersionColumnWidth"/>
-		<item value="200" key="IDColumnWidth"/>
-		<item value="800" key="ListSashWeight"/>
+		<item key="DetailsSashWeight" value="200"/>
+		<item key="NameColumnWidth" value="400"/>
+		<item key="VersionColumnWidth" value="200"/>
+		<item key="IDColumnWidth" value="200"/>
+		<item key="ListSashWeight" value="800"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.WizardSettings">
+		<item key="DIALOG_WIDTH" value="873"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="526"/>
+		<item key="DIALOG_X_ORIGIN" value="278"/>
+		<item key="DIALOG_Y_ORIGIN" value="60"/>
 	</section>
 </section>

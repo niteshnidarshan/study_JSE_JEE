@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import com.maven.boot.rest.model.Customer;

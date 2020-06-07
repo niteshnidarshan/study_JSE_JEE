@@ -19,9 +19,9 @@ import com.maven.boot.rest.services.CustomerService;
 @RestController
 public class CustomerController {
 	
+	@Autowired
 	private final CustomerService customerService;
 	
-	@Autowired
 	public CustomerController(CustomerService customerService)
 	{
 		this.customerService = customerService;

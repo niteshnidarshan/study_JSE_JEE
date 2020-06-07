@@ -1,5 +1,7 @@
 package com.maven.boot.rest.model;
 
+import org.springframework.context.annotation.Bean;
+
 public class Customer {
 
 	private Integer id;
