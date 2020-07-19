@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/niteshnidarshan/git_repository/.git\:
-GitRepositoriesView.GitDirectories.relative=/Users/niteshnidarshan/git_repository/.git\:
+GitRepositoriesView.GitDirectories=/Users/niteshnidarshan/git_repository/.git\:/Users/niteshnidarshan/git_repository_lti/lti-project/.git\:/Users/niteshnidarshan/git/procmart/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/niteshnidarshan/git_repository/.git\:/Users/niteshnidarshan/git_repository_lti/lti-project/.git\:/Users/niteshnidarshan/git/procmart/.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

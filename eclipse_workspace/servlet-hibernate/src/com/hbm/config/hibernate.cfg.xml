@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="connection_pool_size">5</property>
+        <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+        <property name="hbm2ddl.auto">update</property>
+        
+        <property name = "hibernate.show_sql">true</property>
+    </session-factory>
+    
+    
+</hibernate-configuration>
+    
+	<!-- Database connection property -->
+<!--      Driver class - com.mysql.cj.jdbc.Driver -->
+<!--       <property name="hibernate.connection.driver">com.mysql.jdbc.Driver</property> -->
+      <!-- Assume test is the database name -->
+      
+<!--       <property name = "hibernate.connection.url"> -->
+<!--          jdbc:mysql://localhost:3306/notes_app -->
+<!--       </property> -->
+<!--       <property name = "hibernate.connection.useSSL">false</property> -->
+<!--       <property name = "hibernate.connection.allowPublicKeyRetrieval">true</property> -->
+<!--       <property name="hibernate.connection.verifyServerCertificate">false</property> -->
+      
+<!--       <property name = "hibernate.connection.username"> -->
+<!--          root -->
+<!--       </property> -->
+      
+<!--       <property name = "hibernate.connection.password">abc@031391743</property> -->
+      
+	<!-- Hibernate property -->
+<!--       <property name = "hibernate.dialect"> -->
+<!--          org.hibernate.dialect.MySQLDialect -->
+<!--       </property> -->
+      
+
+      
+<!--
+
+       hibernate.hbm2ddl.auto property 
+		1) validate - default - checks db - used in production
+		2) create - first drops the existing then creates newly
+		3) update - If not available in db, creates - safe
+		4) create-drop - using for testing - first creates & after use deletes.
+
+-->
+       
+     <!-- List of XML mapping files -->
+<!--       <mapping resource = "com/hbm/config/student.hbm.xml"/> -->
+
+		

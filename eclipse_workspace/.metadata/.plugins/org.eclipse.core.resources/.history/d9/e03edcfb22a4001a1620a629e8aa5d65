@@ -1,5 +1,0 @@
-package com.maven.boot.rest.model;
-
-public class Customer {
-
-}

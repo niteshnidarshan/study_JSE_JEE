@@ -16,10 +16,10 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 public class DbConfig {
 
 	//@Value("${jdbc.driverClassName}")// To load properties defined key
-	private String driverClass = "com.mysql.jdbc.Driver";
+	private String driverClass = "com.mysql.cj.jdbc.Driver";
 	
 	//@Value("${jdbc.url}")
-	private String url = "jdbc:mysql://localhost:3306/testdb";
+	private String url = "jdbc:mysql://localhost:3306/notes_app";//testdb";
 	
 	//@Value("${jdbc.username}")
 	private String username = "root";
@@ -28,7 +28,7 @@ public class DbConfig {
 	private String password = "abc@031391743";
 	
 	//@Value("${hibernate.dialect}")
-	private String dialect = "org.hibernate.dialect.MySQL5Dialect";
+	private String dialect = "org.hibernate.dialect.MySQLDialect";
 	
 	@Bean
 	public DataSource getDataSource(){

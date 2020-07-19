@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<!-- Generator class - for id generation 
+		1) 'assigned' - default - database independent - user has to provide manually by screen or hard code.
+		2) 'increment' - db dependent - first fetch from db & increment by 1 then set to id column.
+		3) 'sequence' - db dependent - selects next value from sequence table(if sequence table not found then hibernate creates it own and assign it) 
+			  <generator class="sequence">
+			  	<param name = "sequence">MY_SEQUENCE_TABLE</param>
+			  </generator>
+		5) 'hilo' - db independent
+		6) 'identity' - db dependent - auto increment - works with mysql only.
+		7) 'native' - works as a 'sequence' or 'identity' or 'hilo' - If 'sequence' is not supported by db 
+			then hibernates check it with 'identity', if 'identity is also not supported then finally 'hilo' is used. 
+		8) 'foreign' - db independent - It is used to copy id of a parent object to the id of child object - works with 1 to 1 relationship.
+		9) 'custom' - need to create a user defined class by implementing hibernate's IdentifierGenerator interface & override generate() to provide id generate logic.
+		 	<generator class="UserDefinedIDGeneratorClass"></generator>
+		
+-->
+
+<hibernate-mapping>
+	<class name = "com.hbm.model.Product" table = "PRODUCT">
+		<id name = "productId" column = "PID" type = "int">
+			<generator class="increment"></generator>
+		</id>
+		<property name="productName" column = "PNAME" type = "string"></property>
+		<property name = "price" type = "double"></property>
+	</class>
+</hibernate-mapping>

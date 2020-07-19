@@ -1,5 +1,0 @@
-package com.maven.boot.rest.controller;
-
-public class HelloController {
-
-}

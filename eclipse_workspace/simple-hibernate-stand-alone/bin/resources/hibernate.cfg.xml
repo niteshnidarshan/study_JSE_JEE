@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+      
+	<!-- Database connection property -->
+<!--      Driver class - no need to configure -->
+      
+      <!-- Assume test is the database name -->
+      
+      <property name = "hibernate.connection.url">
+         jdbc:mysql://localhost:3306/notes_app
+      </property>
+<!--       <property name = "hibernate.connection.useSSL">false</property> -->
+<!--       <property name = "hibernate.connection.allowPublicKeyRetrieval">true</property> -->
+<!--       <property name="hibernate.connection.verifyServerCertificate">false</property> -->
+      
+      <property name = "hibernate.connection.username">
+         root
+      </property>
+      
+      <property name = "hibernate.connection.password">abc@031391743</property>
+      
+	<!-- Hibernate property -->
+      <property name = "hibernate.dialect">
+         org.hibernate.dialect.MySQL5InnoDBDialect
+      </property>
+      
+<!--       To show sql queries -->
+      <property name = "hibernate.show_sql">
+      	true
+      </property>
+      
+<!--
+
+       hibernate.hbm2ddl.auto property 
+		1) validate - default - checks db - used in production
+		2) create - first drops the existing then creates newly
+		3) update - If not available in db, creates - safe
+		4) create-drop - using for testing - first creates & after use deletes.
+
+-->
+      
+      <property name="hibernate.hbm2ddl.auto">validate</property>
+      
+     <!-- List of XML mapping files -->
+      <mapping resource = "resources/product.hbm.xml"/>
+    </session-factory>
+    
+    
+</hibernate-configuration>

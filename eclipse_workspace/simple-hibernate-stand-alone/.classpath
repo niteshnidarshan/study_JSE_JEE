@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/niteshnidarshan/git_repository/study_JSE_JEE/eclipse_workspace/simple-hibernate-stand-alone/lib/jta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
