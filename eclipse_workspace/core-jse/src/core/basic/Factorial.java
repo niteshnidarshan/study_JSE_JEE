@@ -40,6 +40,7 @@ public class Factorial {
 			return 1;
 		else 
 		{
+			System.out.println(number);
 			return number*getFactorialRecurssive(number-1);
 		}
 	}
