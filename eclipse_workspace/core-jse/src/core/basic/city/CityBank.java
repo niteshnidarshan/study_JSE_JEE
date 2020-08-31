@@ -58,18 +58,20 @@ public class CityBank {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Jai Ram G ki");
+		//System.out.println("Jai Ram G ki");
 		 
 		 
 		//System.out.println(3*0.1 == 0.3);
 		
-		CityBank cb = new CityBank();
+		/*CityBank cb = new CityBank();
 		String s = cb.solution("hellopbbbbpppaaacccccccccccccaaaa");
 		System.out.println(s);
-		
+		*/
 		//int a[] = {1,2,4,5,6,7,9,11,12,14};
 		//System.out.println(cb.solution(a));
 		
 		//System.out.println('z' - 'a');
+		
+		System.out.println("Jai Ram G Ki !");
 	}
 }
