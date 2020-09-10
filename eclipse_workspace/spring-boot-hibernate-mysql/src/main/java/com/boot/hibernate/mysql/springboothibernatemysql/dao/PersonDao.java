@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.NativeQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,8 +30,12 @@ public class PersonDao {
 		getSession().save(person);
 	}
 	
-	@SuppressWarnings("unchecked")
+	//@SuppressWarnings("unchecked")
 	public List<Person> getPersons(){
-		return getSession().createCriteria(Person.class).list();
+		//return getSession().createCriteria(Person.class).list();
+		Session session = getSession();
+		NativeQuery<Person> nq = session.createNativeQuery("select * from PERSON",Person.class);
+		List<Person> list = nq.getResultList();
+		return list;
 	}
 }

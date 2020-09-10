@@ -56,6 +56,19 @@ public class FindSteps {
 		System.out.println("Jai Ram G Ki");
 		System.out.println(getSteps(10));
 		System.out.println(getSteps(20));
+
+		//System.out.println(getSubSteps(10));
+		//1-1
+		//2-1
+		//3-2
+		//4-3
+		//5-5
+		//6-8
+		//7-13
+		//8-21
+		//9-34  
+		//10-55
+		//11-89
 	}
 
 }

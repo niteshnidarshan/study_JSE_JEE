@@ -8,12 +8,13 @@ import javax.persistence.Id;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Setter // from lombok
-@Getter // from lombok
+@Getter // from lombok 
 public class Person {
 
 	@Id
