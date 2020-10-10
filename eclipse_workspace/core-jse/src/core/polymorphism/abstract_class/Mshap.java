@@ -12,6 +12,7 @@ package core.polymorphism.abstract_class;
  */
 public abstract class Mshap {
 	abstract void area();
+	 
 	public static String abc() {
 		return "abc";
 	}

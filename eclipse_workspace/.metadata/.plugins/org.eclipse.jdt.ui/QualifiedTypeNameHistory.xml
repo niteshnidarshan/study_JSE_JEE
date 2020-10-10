@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="lombok.ToString"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="app.lti.citi.account.lticitiappaccount.dto.AccountStatus"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="app.lti.citi.account.lticitiappaccount.dto.AccountDetailDto"/>
-<fullyQualifiedTypeName name="app.lti.citi.account.lticitiappaccount.document.AccountDetail"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-<fullyQualifiedTypeName name="app.lti.citi.account.lticitiappaccount.exception.CommonException"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="app.lti.citi.transaction.lticitiapptransaction.exception.CommonException"/>
-<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
-<fullyQualifiedTypeName name="org.springframework.cloud.netflix.zuul.EnableZuulProxy"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
@@ -22,10 +9,8 @@
 <fullyQualifiedTypeName name="com.mongodb.client.model.Updates"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="core.object.sorting.MovieCollection"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="core.object.sorting.SortByRating"/>
 <fullyQualifiedTypeName name="core.object.sorting.Movie"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.stream.Collector"/>
 <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 <fullyQualifiedTypeName name="mflix.api.models.Comment"/>
@@ -48,10 +33,8 @@
 <fullyQualifiedTypeName name="com.mongodb.client.MongoClients"/>
 <fullyQualifiedTypeName name="com.mongodb.client.MongoDatabase"/>
 <fullyQualifiedTypeName name="mongo.basic.basicmongo.model.Student"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.mongodb.client.model.UpdateOptions"/>
 <fullyQualifiedTypeName name="com.mongodb.client.model.Filters"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.bson.Document"/>
 <fullyQualifiedTypeName name="sun.swing.icon.SortArrowIcon"/>
 <fullyQualifiedTypeName name="com.mongodb.client.model.Sorts"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.IOUtils"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.AbstractList"/>
+<fullyQualifiedTypeName name="javax.management.AttributeList"/>
+<fullyQualifiedTypeName name="javax.management.relation.RoleList"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="core.basic.OverloadCallPriority"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="fiserv_hackerrank.Fiserv"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

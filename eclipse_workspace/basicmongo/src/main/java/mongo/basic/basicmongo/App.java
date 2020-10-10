@@ -4,19 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.Document;
-import org.bson.conversions.Bson;
-import org.bson.types.ObjectId;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Sorts;
-import com.mongodb.client.model.UpdateOptions;
-import com.mongodb.client.result.UpdateResult;
 
-import sun.swing.icon.SortArrowIcon;
+import mongo.basic.basicmongo.operation.BasicOperation;
 
 /**
  * Hello world!
@@ -110,12 +105,13 @@ public class App
         for(Document d: allRecords)
         	System.out.println(d);
         
-        //BasicOperation.runBasicOperation();
+        BasicOperation.runBasicOperation();
        
-        Document dx = new Document("_id","D101").append("name", "Ram G");
+        //insertOne
+        /*Document dx = new Document("_id","D101").append("name", "Ram G");
         MongoCollection<Document> mx = db.getCollection("custom_id");
         mx.insertOne(dx);
-        System.out.println(mx.find().first());
+        System.out.println(mx.find().first());*/
         
     }
 }

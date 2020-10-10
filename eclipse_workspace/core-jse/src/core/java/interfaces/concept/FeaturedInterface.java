@@ -15,7 +15,7 @@ package core.java.interfaces.concept;
 public interface FeaturedInterface {
 
 	void getValue();
-	void general();
+	void general(); 
 	
 	//default method -- requires 'default' keyword & method definition
 	default void defaultMethod1() {
